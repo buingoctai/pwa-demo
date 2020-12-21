@@ -1,6 +1,5 @@
 import React, { lazy, Suspense } from 'react';
 import {BrowserRouter as Router, Switch, Route,Link} from "react-router-dom";
-import logo from './logo.svg';
 // import About from "./About";
 const About = lazy(() => import('./About'));
 // import Home from "./Home";
